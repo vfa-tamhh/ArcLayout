@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import com.ogaclejapan.arclayout.ArcLayout;
 
-public class DemoFreeAngleActivity extends ActionBarActivity implements View.OnClickListener {
+public class DemoFreeAngleActivity extends AppCompatActivity implements View.OnClickListener {
 
   private static final String KEY_DEMO = "demo";
   Toast toast = null;

@@ -9,7 +9,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -24,7 +24,7 @@ import com.ogaclejapan.arclayout.demo.widget.ClipRevealFrame;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DemoLikeTumblrActivity extends ActionBarActivity implements View.OnClickListener {
+public class DemoLikeTumblrActivity extends AppCompatActivity implements View.OnClickListener {
 
   private static final String KEY_DEMO = "demo";
   Toast toast = null;
