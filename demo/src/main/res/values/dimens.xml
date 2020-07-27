@@ -13,7 +13,7 @@
   <dimen name="layout_child_offset_path">114dp</dimen>
 
   <dimen name="item_circle_size_large">72dp</dimen>
-  <dimen name="item_circle_size_medium">48dp</dimen>
+    <dimen name="item_circle_size_medium">48dp</dimen>
   <dimen name="item_circle_size_small">36dp</dimen>
   <dimen name="item_circle_size_tumblr">70dp</dimen>
   <dimen name="item_circle_size_path">36dp</dimen>
